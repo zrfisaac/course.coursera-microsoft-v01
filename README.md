@@ -1,8 +1,8 @@
 # Student Grade Management System
 
-[![](https://img.shields.io/badge/version-1.0.0-4169E1?style=flat-square)](#)
-[![](https://img.shields.io/badge/download-binary-4CAF50?style=flat-square)](https://github.com/zrfisaac/course.coursera-microsoft-v01/releases/download/v1.0.0/StudentGradeManagementSystem.zip)
-[![](https://img.shields.io/badge/download-source-FF4500?style=flat-square)](https://github.com/zrfisaac/course.coursera-microsoft-v01/archive/refs/tags/v1.0.0.zip)
+[![](https://img.shields.io/badge/version-1.1.0-4169E1?style=flat-square)](#)
+[![](https://img.shields.io/badge/download-binary-4CAF50?style=flat-square)](https://github.com/zrfisaac/course.coursera-microsoft-v01/releases/download/v1.1.0/StudentGradeManagementSystem.zip)
+[![](https://img.shields.io/badge/download-source-FF4500?style=flat-square)](https://github.com/zrfisaac/course.coursera-microsoft-v01/archive/refs/tags/v1.1.0.zip)
 
 ## Overview
 **Student Grade Management System** is a C# console application developed for the **Microsoft - Foundations of Coding Full-Stack** course on Coursera. This project demonstrates essential programming concepts like control structures, loops, and methods in C#, and it provides a basic management tool for student grades. The application enables users to add students, assign grades, calculate averages, and display student records.

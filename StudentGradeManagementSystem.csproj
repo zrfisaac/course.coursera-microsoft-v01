@@ -21,6 +21,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>Isaac Caires / zrfisaac.github.io</Authors>
     <PackageId>zrfisaac.course.coursera.microsoft.v01</PackageId>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
