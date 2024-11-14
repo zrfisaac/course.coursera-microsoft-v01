@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>StudentGradeManagementSystem.Program</StartupObject>
+    <AssemblyName>StudentGradeManagementSystem</AssemblyName>
+    <ApplicationIcon>StudentGradeManagementSystem.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <Title>Student Grade Management System</Title>
+    <Company>Isaac Caires / zrfisaac.github.io</Company>
+    <Product>StudentGradeManagementSystem</Product>
+    <Description>SimpleInventoryManager is a C# application developed as part of the Microsoft - Foundations of Coding Full-Stack course on Coursera.</Description>
+    <Copyright>Isaac Caires / zrfisaac.github.io</Copyright>
+    <PackageProjectUrl>https://github.com/zrfisaac/course.coursera-microsoft-v01</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/zrfisaac/course.coursera-microsoft-v01</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>Isaac Caires / zrfisaac.github.io</Authors>
+    <PackageId>zrfisaac.course.coursera.microsoft.v01</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="StudentGradeManagementSystem.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
