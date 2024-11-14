@@ -288,7 +288,7 @@ flowchart TD
     G2 --> H2[Add Grade to Student]
     H2 --> B
     
-    F2 -- No --> I2[Display: "Student Not Found"]
+    F2 -- No --> I2[Display: Student Not Found]
     I2 --> B
     
     C --> D3[3. Display Student Information]
@@ -298,7 +298,7 @@ flowchart TD
     F3 -- Yes --> G3[Display Student Grades and Average]
     G3 --> B
     
-    F3 -- No --> I3[Display: "Student Not Found"]
+    F3 -- No --> I3[Display: Student Not Found]
     I3 --> B
     
     C --> D4[4. Display All Student Records]
