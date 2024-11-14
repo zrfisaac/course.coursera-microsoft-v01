@@ -63,22 +63,22 @@ Below is a flowchart outlining the basic operations of the **Student Grade Manag
 ```mermaid
 classDiagram
     class Student {
-      -string ID
-      -string Name
-      -List~int~ Grades
-      +AddGrade(int grade)
-      +CalculateAverage() double
+        - string ID
+        - string Name
+        - List<int> Grades
+        + AddGrade(int grade)
+        + CalculateAverage() double
     }
 
     class GradeManager {
-      -List~Student~ Students
-      +AddStudent(string name, string id)
-      +AssignGrade(string id, int grade)
-      +DisplayStudentInfo(string id)
-      +DisplayAllStudents()
+        - List<Student> Students
+        + AddStudent(string name, string id)
+        + AssignGrade(string id, int grade)
+        + DisplayStudentInfo(string id)
+        + DisplayAllStudents()
     }
 
-    GradeManager --> Student
+    GradeManager --> Student : manages
 ```
 
 ### Key Application Components
@@ -276,12 +276,12 @@ flowchart TD
     B --> C{Select Option}
     
     C --> D1[1. Add New Student]
-    D1 --> E1[Enter Student Name & ID (integer)]
+    D1 --> E1[Enter Student Name & ID]
     E1 --> F1[Create Student Instance]
     F1 --> B
     
     C --> D2[2. Assign Grade to Student]
-    D2 --> E2[Enter Student ID (integer)]
+    D2 --> E2[Enter Student ID]
     E2 --> F2{Check if Student Exists}
     
     F2 -- Yes --> G2[Enter Grade]
@@ -292,10 +292,10 @@ flowchart TD
     I2 --> B
     
     C --> D3[3. Display Student Information]
-    D3 --> E3[Enter Student ID (integer)]
+    D3 --> E3[Enter Student ID]
     E3 --> F3{Check if Student Exists}
     
-    F3 -- Yes --> G3[Display Student Info with Grades and Average]
+    F3 -- Yes --> G3[Display Student Grades and Average]
     G3 --> B
     
     F3 -- No --> I3[Display: "Student Not Found"]
