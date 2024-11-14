@@ -307,12 +307,6 @@ flowchart TD
     F4 --> B
     
     C --> End((Exit Application))
-
-    %% Styling nodes
-    style Start fill:#79c1ff,stroke:#333,stroke-width:2px
-    style End fill:#79c1ff,stroke:#333,stroke-width:2px
-    style B fill:#ccf0d6,stroke:#333,stroke-width:1px
-    style C fill:#f9dcb7,stroke:#333,stroke-width:1px
 ```
 
 ### Explanation of Flowchart Steps
